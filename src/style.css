@@ -42,6 +42,10 @@ a {
 
 .navbar-links {
     display: none;
+} 
+
+.nav-active {
+    display: block;
     position: absolute;
     right: 0px;
     width: 40%;
@@ -51,16 +55,16 @@ a {
     justify-content: flex-start;
     font-size: 1.2rem;
     border: 1px solid black;
-} 
+}
 
-.navbar-links li {
+.nav-active li {
     width: 100%;
     padding: 15px;
     text-align: end;
     border-top: solid #f2f2f2 1px;
 }
 
-.navbar-links li:last-child {
+.navactive li:last-child {
     border-bottom: solid #f2f2f2 1px;
 }
 
@@ -84,10 +88,7 @@ a {
 
 .burger-btn {
     display: block;
-}
-
-.nav-active {
-    display: block;
+    cursor: pointer;
 }
 
 
