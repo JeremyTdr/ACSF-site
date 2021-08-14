@@ -24,20 +24,20 @@ a {
 
 /* NAVBAR */
 
-.navbar {
+nav {
     width: 100%;
     height: 6vh;
-    padding: 5px 60px;
+    padding: 5px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #3f3f3f;
+    background-color: #3c91ca;
 }
 
 .logo {
     font-family: 'Righteous';
     font-size: 2.2rem;
-    color: #3c91ca;
+    color: #fff;
 }
 
 .navbar-links {
@@ -55,7 +55,7 @@ a {
     align-items: center;
     justify-content: flex-start;
     font-size: 1.2rem;
-    border: 1px solid black;
+    border-left: 1px solid #464646;
 }
 
 .nav-active li {
@@ -72,20 +72,26 @@ a {
 .navbar-links li a {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #3f3f3f;
+    color: #464646;
 }
 
-.nav-active #events {
+.navbar-links li:last-child a {
     color: #3c91ca;
 }
 
 .burger-btn {
     display: block;
+    font-size: 1.6rem;
+    color: #fff;
     cursor: pointer;
 }
 
 
 @media screen and (min-width:992px) {
+
+    nav {
+        padding: 5px 60px;
+    }
     
     .logo {
         font-size: 2.2rem;
