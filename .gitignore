@@ -1,0 +1,4 @@
+#Ignore les SVG
+*.svg
+#Ignore les Images
+*.jpg, *.jpeg, *.png
