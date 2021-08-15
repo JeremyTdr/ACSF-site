@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding: 20px 0 30px 0;
+}
+
 section h2 {
     font-size: 2rem;
     color: #3c91ca;
@@ -248,19 +252,22 @@ header {
 }
 
 .coachs-list {
-    width: 400px;
+    width: 420px;
     margin: 20px auto;
-    border: 1px solid black;
 }
 
 .coach {
     display: flex;
+    height: 150px;
+    align-items: center;
     margin: 50px 0;
+    padding: 5px;
     justify-content: space-between;
 }
 
 .coach img {
     max-width: 120px;
+    max-height: 120px;
     flex : 1;
     border-radius: 50%;
     border: 3px solid #fff;
@@ -271,7 +278,21 @@ header {
     padding-left: 20px;
 }
 
+.coach-profile h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
 
+.coach-profile p:last-child {
+    margin-top: 5px;
+}
+
+#coachs-other {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
 
 
 
