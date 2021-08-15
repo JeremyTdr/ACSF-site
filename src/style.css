@@ -237,6 +237,41 @@ header {
 
 
 
+/* COACHS */
+
+.coachs {
+    background-color: #3c91ca;
+}
+
+.coachs h2 {
+    color: #fff;
+}
+
+.coachs-list {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.coach {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+}
+
+.coach img {
+    max-width: 120px;
+    flex : 1;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.coach-profile {
+    flex : 2;
+    padding-left: 20px;
+}
+
+
 
 
 
