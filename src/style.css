@@ -31,6 +31,12 @@ section h2 {
     text-align: center;
 }
 
+@media screen and (min-width:992px) {
+    section h2 {
+        margin: 60px auto;
+    }
+}
+
 
 /* NAVBAR */
 
@@ -188,6 +194,15 @@ header {
 
 
 /* HOME */
+.home {
+    width: 100%;
+    height: auto;
+}
+
+.home .container {
+    width: 100%;
+    margin: 0 auto;
+}
 
 .home .presentation {
     margin: 0 40px 20px 40px;
@@ -196,6 +211,12 @@ header {
 
 .home a {
     color: #3c91ca;
+}
+
+@media screen and (min-width:992px) {
+    .home .container {
+        width: 1200px;
+    }
 }
 
 
