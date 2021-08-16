@@ -362,21 +362,47 @@ header {
 
 .card {
   width: 350px;
-  height: 600px;
+  height: 520px;
   margin: 20px auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid black;
+  background-color: #3c91ca;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 5px 1px #757575;
+  box-shadow: 1px 1px 5px 1px #757575;
 }
 
 .card i {
   font-size: 4rem;
-  color: #3c91ca;
+  text-align: center;
+  color: #fff;
 }
 
 .card h3 {
   font-size: 1.6rem;
-  margin: 10px auto;
+  margin: 15px auto;
+  color: #272727;
+}
+
+.card p {
+  margin: 20px 5px 10px 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.card ul {
+  margin: 40px 0 0 0;
+}
+
+.card li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.card .fa-arrow-right {
+  font-size: 1.6rem;
+  margin-right: 10px;
+  color: #272727;
 }
