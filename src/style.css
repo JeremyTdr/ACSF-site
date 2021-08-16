@@ -353,9 +353,18 @@ header {
 
 /* OFFRES */
 
-.offres-cards {
+.offres .container {
   width: 420px;
   margin: 0 auto;
+}
+
+.offres-intro {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.offres-cards {
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
 }
@@ -411,6 +420,11 @@ header {
   .offres .container {
     width: 1200px;
     margin: 0 auto;
+  }
+
+  .offres-intro {
+    text-align: center;
+    font-size: 1.6rem;
   }
 
   .offres-cards {
