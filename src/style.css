@@ -362,7 +362,7 @@ header {
 
 .card {
   width: 350px;
-  height: 520px;
+  height: auto;
   margin: 20px auto;
   padding: 20px;
   display: flex;
@@ -405,4 +405,29 @@ header {
   font-size: 1.6rem;
   margin-right: 10px;
   color: #272727;
+}
+
+@media screen and (min-width: 992px) {
+  .offres .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .offres-cards {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 330px;
+  }
+
+  .card h3 {
+    font-size: 1.8rem;
+  }
+
+  .card li {
+    font-size: 1.1rem;
+  }
 }
