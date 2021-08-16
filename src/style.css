@@ -265,6 +265,7 @@ header {
   margin: 50px 0;
   padding: 5px;
   justify-content: space-between;
+  gap: 4px;
 }
 
 .coach img {
@@ -273,6 +274,9 @@ header {
   flex: 1;
   border-radius: 50%;
   border: 3px solid #fff;
+  -webkit-box-shadow: 1px 1px 5px 1px #757575;
+  box-shadow: 1px 1px 5px 1px #757575;
+  z-index: 1;
 }
 
 .coach-profile {
@@ -281,6 +285,8 @@ header {
   background-color: #fff;
   border: 2px solid #fff;
   border-radius: 40px;
+  -webkit-box-shadow: 1px 1px 5px 1px #757575;
+  box-shadow: 1px 1px 5px 1px #757575;
 }
 
 .coach-profile h3 {
