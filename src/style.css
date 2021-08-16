@@ -284,7 +284,7 @@ header {
   padding: 10px 5px 10px 20px;
   background-color: #fff;
   border: 2px solid #fff;
-  border-radius: 40px;
+  border-radius: 15px;
   -webkit-box-shadow: 1px 1px 5px 1px #757575;
   box-shadow: 1px 1px 5px 1px #757575;
 }
