@@ -1,6 +1,10 @@
 /* GENERAL */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +14,7 @@
 }
 
 body {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   color: #272727;
 }
 
@@ -189,9 +193,8 @@ header {
 }
 
 .intro-header p {
-  line-height: 1.8rem;
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -202,8 +205,7 @@ header {
   }
 
   .intro-header p {
-    line-height: 2.5rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -424,7 +426,7 @@ header {
 
   .offres-intro {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
   .offres-cards {
