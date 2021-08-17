@@ -446,6 +446,11 @@ header {
   .card li {
     font-size: 1.1rem;
   }
+
+  .card:hover {
+    transform: translateY(-20px);
+    transition: all 0.25s ease-in;
+  }
 }
 
 /* CONTACT */
