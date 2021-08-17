@@ -555,3 +555,17 @@ header {
     box-shadow: 1px 1px 5px 1px #757575;
   }
 }
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.footer-rights {
+  margin: 15px auto;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
