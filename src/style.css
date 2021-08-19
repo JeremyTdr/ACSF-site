@@ -16,6 +16,7 @@
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   color: #272727;
+  line-height: 1.8rem;
 }
 
 ul,
@@ -30,7 +31,7 @@ section {
 
 section h2 {
   font-size: 2rem;
-  color: #3c91ca;
+  color: #fff;
   margin: 30px auto;
   text-align: center;
 }
@@ -169,7 +170,7 @@ nav {
 header {
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 200px;
 }
 
 .intro-header {
@@ -179,23 +180,24 @@ header {
   justify-content: space-between;
   padding: 20px 40px;
   text-align: center;
-  background-color: #3c91ca;
+  background-color: #fff;
 }
 
 .intro-header h1 {
   font-size: 2.2rem;
-  margin-bottom: 20px;
+  line-height: 2.6rem;
+  margin-bottom: 40px;
 }
 
 .intro-header h1 strong {
   font-family: "Righteous";
-  color: #fff;
+  color: #3c91ca;
 }
 
 .intro-header p {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #fff;
+  color: #272727;
 }
 
 @media screen and (min-width: 992px) {
@@ -213,20 +215,23 @@ header {
 .home {
   width: 100%;
   height: auto;
+  background-color: #3c91ca;
 }
 
 .home .container {
   width: 100%;
-  margin: 0 auto;
+  margin: 180px auto 0;
 }
 
 .home .presentation {
   margin: 0 40px 20px 40px;
   text-align: justify;
+  color: #fff;
 }
 
 .home a {
-  color: #3c91ca;
+  color: #fff;
+  border-bottom: 2px solid #fff;
 }
 
 @media screen and (min-width: 992px) {
@@ -241,18 +246,14 @@ header {
 
 /* COACHS */
 
-.coachs {
-  background-color: #3c91ca;
-}
-
 .coachs h2 {
-  color: #fff;
+  color: #3c91ca;
 }
 
 .coachs-intro {
   margin: 10px 20px;
   text-align: center;
-  color: #fff;
+  color: #272727;
 }
 
 .coachs-list {
@@ -283,9 +284,8 @@ header {
 
 .coach-profile {
   flex: 2;
-  padding: 10px 5px 10px 20px;
-  background-color: #fff;
-  border: 2px solid #fff;
+  padding: 10px 5px 15px 20px;
+  background-color: #3c91ca;
   border-radius: 15px;
   -webkit-box-shadow: 1px 1px 5px 1px #757575;
   box-shadow: 1px 1px 5px 1px #757575;
@@ -294,7 +294,7 @@ header {
 .coach-profile h3 {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #3c91ca;
+  color: #fff;
 }
 
 .coach-profile p:last-child {
@@ -303,7 +303,7 @@ header {
 
 #coachs-other {
   text-align: center;
-  color: #fff;
+  color: #272727;
   font-size: 1.2rem;
 }
 
@@ -354,6 +354,9 @@ header {
 }
 
 /* OFFRES */
+.offres {
+  background-color: #3c91ca;
+}
 
 .offres .container {
   width: 420px;
@@ -363,6 +366,7 @@ header {
 .offres-intro {
   text-align: center;
   font-size: 1.2rem;
+  color: #fff;
 }
 
 .offres-cards {
@@ -378,7 +382,7 @@ header {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  background-color: #3c91ca;
+  background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 5px 1px #757575;
   box-shadow: 1px 1px 5px 1px #757575;
@@ -387,7 +391,7 @@ header {
 .card i {
   font-size: 4rem;
   text-align: center;
-  color: #fff;
+  color: #3c91ca;
 }
 
 .card h3 {
@@ -400,7 +404,7 @@ header {
   margin: 20px 5px 10px 5px;
   text-align: center;
   font-size: 1.2rem;
-  color: #fff;
+  color: #272727;
 }
 
 .card ul {
@@ -409,13 +413,13 @@ header {
 
 .card li {
   margin-bottom: 20px;
-  color: #fff;
+  color: #272727;
 }
 
 .card .fa-arrow-right {
   font-size: 1.6rem;
   margin-right: 10px;
-  color: #272727;
+  color: #3c91ca;
 }
 
 @media screen and (min-width: 992px) {
@@ -454,32 +458,26 @@ header {
 }
 
 /* CONTACT */
-
-.contact {
-  width: 100%;
-  background-color: #3c91ca;
-}
-
 .contact .container {
   width: 100%;
 }
 
 .contact h2 {
-  color: #fff;
+  color: #3c91ca;
 }
 
 .contact p {
-  color: #fff;
+  color: #272727;
   margin: 0 40px 20px 40px;
   text-align: center;
 }
 
 .form-contact {
-  width: 450px;
+  width: 440px;
   height: auto;
   margin: 0 auto;
-  padding: 25px;
-  background-color: #fff;
+  padding: 25px 15px;
+  background-color: #3c91ca;
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 5px 1px #757575;
   box-shadow: 1px 1px 5px 1px #757575;
@@ -488,7 +486,7 @@ header {
 .form-items {
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
+  margin: 10px 20px;
 }
 
 .form-items input,
@@ -509,10 +507,12 @@ header {
   width: 100%;
   height: 40px;
   font-size: 1.3rem;
-  background-color: #3c91ca;
+  background-color: #fff;
   border: none;
   border-radius: 5px;
-  color: #fff;
+  color: #3c91ca;
+  -webkit-box-shadow: 1px 1px 5px 1px #757575;
+  box-shadow: 1px 1px 5px 1px #757575;
 }
 
 @media screen and (min-width: 992px) {
@@ -534,7 +534,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 16px;
   }
 
   .form-items input {
@@ -548,11 +548,12 @@ header {
 
   .form-items button {
     width: 200px;
+    cursor: pointer;
   }
 
   .form-items button:hover {
-    -webkit-box-shadow: 1px 1px 5px 1px #757575;
-    box-shadow: 1px 1px 5px 1px #757575;
+    -webkit-box-shadow: 1px 1px 5px 1px #fff;
+    box-shadow: 1px 1px 5px 1px #fff;
   }
 }
 
@@ -561,11 +562,14 @@ header {
 footer {
   width: 100%;
   height: auto;
+  padding: 10px 0;
   text-align: center;
+  background-color: #3c91ca;
+  color: #fff;
 }
 
 .footer-rights {
-  margin: 15px auto;
+  margin: 0 auto;
   font-size: 0.9rem;
   font-weight: 500;
 }
