@@ -303,8 +303,9 @@ header {
 
 #coachs-other {
   text-align: center;
-  color: #272727;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #3c91ca;
 }
 
 @media screen and (min-width: 992px) {
@@ -350,6 +351,8 @@ header {
 
   #coachs-other {
     font-size: 1.8rem;
+    font-weight: 500;
+    color: #3c91ca;
   }
 }
 
@@ -488,13 +491,16 @@ header {
   height: auto;
   padding: 15px;
   border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 3px 1px #757575;
+  box-shadow: 1px 1px 3px 1px #757575;
 }
 
 .contact-infos .logo {
   text-align: center;
 }
 
-.infos-items {
+.infos-items,
+.infos-social {
   margin: 30px 0 15px 10px;
 }
 
@@ -508,6 +514,19 @@ header {
   width: 40px;
   font-size: 1.5rem;
 }
+
+.infos-social {
+  display: flex;
+  justify-content: center;
+}
+
+.infos-social li {
+  color: #fff;
+  font-size: 3rem;
+  padding-right: 20px;
+}
+
+/* Contact Form */
 
 .form-items {
   display: flex;
@@ -555,17 +574,56 @@ header {
 
   .form-contact {
     width: 900px;
+    flex-direction: row;
+  }
+
+  .contact-infos {
+    padding: 25px;
+  }
+
+  .infos-items,
+  .infos-social {
+    margin: 80px 0;
+  }
+
+  .infos-items li {
+    margin: 25px 0;
+    font-size: 1.2rem;
+  }
+
+  .infos-items li i {
+    width: 50px;
+    font-size: 2rem;
+  }
+
+  .infos-social {
+    justify-content: center;
+  }
+
+  .infos-social li {
+    font-size: 4rem;
+    padding-right: 30px;
+    text-align: center;
+  }
+
+  .infos-social li .fa-facebook-square:hover {
+    color: #4064ac;
+  }
+
+  .infos-social li .fa-instagram-square:hover {
+    color: #e84c58;
+  }
+
+  .infos-social li .fa-linkedin:hover {
+    color: #0073b1;
   }
 
   .form-items {
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
+    margin: 10px auto;
   }
 
   .form-items input {
-    width: 400px;
+    width: 440px;
   }
 
   .form-items textarea {
@@ -576,6 +634,7 @@ header {
   .form-items button {
     width: 200px;
     cursor: pointer;
+    align-self: flex-end;
   }
 
   .form-items button:hover {
