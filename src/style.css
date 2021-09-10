@@ -266,22 +266,24 @@ header {
 }
 
 .coachs-list {
-  width: 420px;
   margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .coach {
   display: flex;
-  height: 150px;
+  flex-direction: column;
   align-items: center;
-  margin: 50px 0;
+  margin: 20px 0;
   padding: 5px;
   justify-content: space-between;
   gap: 4px;
 }
 
 .coach img {
-  width: 100px;
+  width: 150px;
   height: auto;
   flex: 1;
   border-radius: 50%;
@@ -293,6 +295,7 @@ header {
 
 .coach-profile {
   flex: 2;
+  width: 350px;
   padding: 10px 5px 15px 20px;
   background-color: #3c91ca;
   border-radius: 15px;
@@ -341,6 +344,7 @@ header {
   }
 
   .coach {
+    flex-direction: row;
     width: 650px;
     height: auto;
     margin: 30px 0;
@@ -371,7 +375,6 @@ header {
 }
 
 .offres .container {
-  width: 420px;
   margin: 0 auto;
 }
 
@@ -388,7 +391,7 @@ header {
 }
 
 .card {
-  width: 350px;
+  width: 340px;
   height: auto;
   margin: 20px auto;
   padding: 20px;
@@ -485,7 +488,7 @@ header {
 }
 
 .form-contact {
-  width: 440px;
+  width: 340px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -545,8 +548,8 @@ header {
 
 .form-items input,
 .form-items textarea {
-  height: 40px;
-  margin: 10px 0;
+  height: 30px;
+  margin: 15px 0 0 0;
   padding: 5px;
   font-size: 1.1rem;
   border: 1.5px solid #272727;
@@ -633,6 +636,8 @@ header {
 
   .form-items input {
     width: 440px;
+    height: 40px;
+    margin: 10px 0;
   }
 
   .form-items textarea {
@@ -665,6 +670,12 @@ footer {
 
 .footer-rights {
   margin: 0 auto;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-rights {
+    font-size: 0.9rem;
+  }
 }
