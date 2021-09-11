@@ -391,7 +391,7 @@ header {
 }
 
 .card {
-  width: 340px;
+  width: 330px;
   height: auto;
   margin: 20px auto;
   padding: 20px;
@@ -452,10 +452,6 @@ header {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .card {
-    width: 330px;
   }
 
   .card h3 {
