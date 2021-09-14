@@ -690,7 +690,38 @@ header {
 }
 
 .timeline-item {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto 100px;
+}
+
+.timeline-item:not(:last-child):after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background-color: #3c91ca;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-hour {
+  flex: 1;
   border: 1px solid black;
+}
+
+.timeline-coach {
+  flex: 1;
+  border: 1px solid red;
+}
+
+.timeline-infos {
+  flex: 1;
+  border: 1px solid blue;
 }
 
 /* FOOTER */
