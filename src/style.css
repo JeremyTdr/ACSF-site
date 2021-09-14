@@ -653,6 +653,46 @@ header {
   }
 }
 
+/* EVENEMENTS */
+
+.special-event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 10px;
+  background-color: #3c91ca;
+}
+
+.special-event img {
+  width: 270px;
+  height: auto;
+  border: 3px solid #fff;
+  border-radius: 3px;
+}
+
+.special-event p {
+  margin: 40px auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* TIMELINE */
+.timeline {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.timeline h2 {
+  color: #3c91ca;
+}
+
+.timeline-item {
+  border: 1px solid black;
+}
+
 /* FOOTER */
 
 footer {
