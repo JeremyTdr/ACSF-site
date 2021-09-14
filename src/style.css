@@ -758,13 +758,13 @@ header {
 }
 
 .round.average {
-  background-color: #ca7900;
-  border: 1px solid #ca7900;
+  background-color: #ffb03a;
+  border: 1px solid #ffb03a;
 }
 
 .round.hard {
-  background-color: #ca2800;
-  border: 1px solid #ca2800;
+  background-color: #ff3300;
+  border: 1px solid #ff3300;
 }
 
 /* FOOTER */
