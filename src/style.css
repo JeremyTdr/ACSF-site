@@ -734,7 +734,37 @@ header {
 .timeline-infos {
   width: 130px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* TIMELINE ROUNDS */
+
+.training-level {
+  display: flex;
+}
+
+.round {
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  border: 1px solid #757575;
+  border-radius: 50%;
+}
+
+.round.easy {
+  background-color: #18ca00;
+  border: 1px solid #18ca00;
+}
+
+.round.average {
+  background-color: #ca7900;
+  border: 1px solid #ca7900;
+}
+
+.round.hard {
+  background-color: #ca2800;
+  border: 1px solid #ca2800;
 }
 
 /* FOOTER */
