@@ -524,7 +524,7 @@ header {
   justify-content: center;
 }
 
-.infos-social li {
+.infos-social a {
   color: #fff;
   font-size: 3rem;
   padding-right: 20px;
@@ -604,22 +604,22 @@ header {
     justify-content: center;
   }
 
-  .infos-social li {
+  .infos-social a {
     font-size: 4rem;
     padding-right: 30px;
     text-align: center;
     cursor: pointer;
   }
 
-  .infos-social li .fa-facebook-square:hover {
+  .infos-social .fa-facebook-square:hover {
     color: #4064ac;
   }
 
-  .infos-social li .fa-instagram-square:hover {
+  .infos-social .fa-instagram-square:hover {
     color: #e84c58;
   }
 
-  .infos-social li .fa-linkedin:hover {
+  .infos-social .fa-linkedin:hover {
     color: #0073b1;
   }
 
