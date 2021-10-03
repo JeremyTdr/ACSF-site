@@ -701,7 +701,7 @@ header {
   display: flex;
   width: 320px;
   height: 100px;
-  margin: 0 auto 70px;
+  margin: 50px auto 70px;
 }
 
 .timeline-item:not(:last-child):after {
@@ -746,6 +746,13 @@ header {
 }
 
 @media screen and (min-width: 992px) {
+  .timeline p {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
   .timeline-item {
     width: 600px;
     height: 180px;
