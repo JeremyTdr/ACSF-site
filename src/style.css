@@ -673,6 +673,16 @@ header {
   color: #fff;
 }
 
+@media screen and (min-width: 992px) {
+  .special-event img {
+    width: 600px;
+  }
+
+  .special-event p {
+    font-size: 1.2rem;
+  }
+}
+
 /* TIMELINE */
 .timeline {
   width: 100%;
@@ -733,6 +743,42 @@ header {
   justify-content: space-evenly;
 }
 
+@media screen and (min-width: 992px) {
+  .timeline-item {
+    width: 600px;
+    height: 200px;
+  }
+
+  .timeline-item:not(:last-child):after {
+    width: 5px;
+    height: 70px;
+    background-color: #3c91ca;
+    top: 200px;
+    left: 300px;
+    transform: translateX(-50%);
+  }
+
+  .timeline-hour {
+    width: 200px;
+    font-size: 1.6rem;
+  }
+
+  .timeline-coach {
+    width: 200px;
+  }
+
+  .timeline-coach img {
+    border: 5px solid #3c91ca;
+  }
+
+  .timeline-infos {
+    width: 200px;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
+
 /* TIMELINE ROUNDS */
 
 .training-level {
@@ -760,6 +806,13 @@ header {
 .round.hard {
   background-color: #ff3300;
   border: 1px solid #ff3300;
+}
+
+@media screen and (min-width: 992px) {
+  .round {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 /* FOOTER */
