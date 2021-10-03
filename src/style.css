@@ -608,6 +608,7 @@ header {
     font-size: 4rem;
     padding-right: 30px;
     text-align: center;
+    cursor: pointer;
   }
 
   .infos-social li .fa-facebook-square:hover {
