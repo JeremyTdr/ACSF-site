@@ -748,14 +748,14 @@ header {
 @media screen and (min-width: 992px) {
   .timeline-item {
     width: 600px;
-    height: 200px;
+    height: 180px;
   }
 
   .timeline-item:not(:last-child):after {
     width: 5px;
     height: 70px;
     background-color: #3c91ca;
-    top: 200px;
+    top: 180px;
     left: 300px;
     transform: translateX(-50%);
   }
