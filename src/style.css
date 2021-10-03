@@ -68,6 +68,7 @@ nav {
   font-family: "Righteous";
   font-size: 2.2rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .navbar-links {
@@ -78,7 +79,7 @@ nav {
   display: block;
   position: absolute;
   right: 0px;
-  width: 45%;
+  width: 55%;
   height: 100vh;
   top: 6vh;
   flex-direction: column;
